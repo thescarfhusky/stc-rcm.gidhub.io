@@ -1,0 +1,229 @@
+@charset "UTF-8"
+/* CSS Document */
+    
+.body {
+    background-color: black;    
+    background-image: url("IMAGES/curtain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 30px 30%;
+    justify-content: center;
+}
+
+li, a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.header {
+    display: flex;
+    align-items:center;
+}
+
+li, ul {
+    display: inline-block;
+    background-color: coral;
+}
+
+navbar {
+    transition: all 0.4s ease 0s;
+    background-color: coral;
+    padding-right: 300px;
+}
+
+navbar,a:hover {
+    color: darkgreen;
+}
+
+active {
+    border: 2px solid white;
+    transition: 0.4 
+}
+
+nav #icon{
+    color: coral;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 35px;
+    text-justify: center;
+}
+    
+h3 {
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+.img {
+    background-color: coral;
+    justify-content: center;
+    margin-left: 25%;
+    
+}
+.contact-box {
+    width: 500px;
+    background-color: coral;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    margin-top: 300px;
+}
+form {
+    margin: 50px;
+}
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;   
+}
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+.btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: green;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.product img {
+    width: 250px;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: cover;
+    margin-left: 0%;
+}
+.p-name {
+    text-align: center;
+    background-color: coral;
+    margin-left: 45%;
+}
+
+.p-name:hover {
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease 0s
+}
+
+.calendar {
+    margin: auto;
+    max-width: 1000px;
+    color: green;
+}
+
+.month {
+    text-align: center;
+    background: white;
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: black;
+    border: 3px solid coral;
+}
+
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 28px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+th {
+    background: coral;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+td {
+    background: white;
+    color: green;
+}
+
+td:hover {
+    background: coral;
+    cursor: pointer;
+}
+
+tr:hover {
+    background: green;
+}
+
+.button {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: green;
+    font-size: 12px;
+    border: none;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.button:hover {
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+
+.link {
+    border-image: url(https://static.wixstatic.com/media/335dda_ac37ee476be74708a23ebf5b944d3c50~mv2.png/v1/fill/w_288,h_53,al_c,lg_1,q_85,enc_auto/335dda_ac37ee476be74708a23ebf5b944d3c50~mv2.png);
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.iframe {
+    padding-left: 100px;
+    justify-content: center;
+    margin-top: 50%;
+}
+
+a {
+    justify-content: center;
+    transition: all 0.4s ease 0s;
+    color: aliceblue;
+    background-color: coral;
+}
+
+h5 {
+    margin-left: 39%;
+}
+
+.ytp-title-link yt-uix-sessionlink {
+    margin-left: 50%;
+    justify-content: center;
+}
+
+.evoSJzgfa5A1 {
+    justify-content: center;
+    margin-left: 20%;
+}
